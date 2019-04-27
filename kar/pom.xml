@@ -5,7 +5,7 @@
     <parent>
         <groupId>hu.blackbelt.karaf.features</groupId>
         <artifactId>tinybundles</artifactId>
-        <version>3.0.0_1-SNAPSHOT</version>
+        <version>3.0.0_1</version>
         <relativePath>../</relativePath>
     </parent>
     <artifactId>tinybundles-kar</artifactId>
