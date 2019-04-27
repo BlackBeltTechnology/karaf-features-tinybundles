@@ -1,0 +1,7 @@
+# Karaf feature Tinybundles
+
+Externsion to karaf which adds Tinybundles bundles to karaf features.
+
+## Features:
+
+- tinybundles 3.0.0
