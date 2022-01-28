@@ -22,13 +22,15 @@
         <url>https://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
-    
+
     <scm>
         <connection>scm:git:git://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}.git</connection>
-        <developerConnection>scm:git:ssh://${git.username}@github.com:BlackBeltTechnology/karaf-features-${project.artifactId}.git</developerConnection>
+        <developerConnection>
+            scm:git:ssh://${git.username}@github.com:BlackBeltTechnology/karaf-features-${project.artifactId}.git
+        </developerConnection>
         <url>https://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}</url>
     </scm>
-    
+
     <developers>
         <developer>
             <id>robson</id>
@@ -39,7 +41,7 @@
             <organizationUrl>http://www.blackbelt.hu</organizationUrl>
         </developer>
     </developers>
-    
+
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -47,7 +49,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
 
     <build>
         <pluginManagement>
@@ -77,7 +78,7 @@
                         </execution>
                     </executions>
                 </plugin>
-                
+
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-deploy-plugin</artifactId>
@@ -279,7 +280,5 @@
                 </repository>
             </distributionManagement>
         </profile>
-
     </profiles>
-
 </project>
